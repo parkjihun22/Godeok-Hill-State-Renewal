@@ -48,6 +48,19 @@ const reservationData = {
       pattern: "^01[0-9][-\\s]?[0-9]{3,4}[-\\s]?[0-9]{4}$",
       title: "예: 01012345678 또는 010-1234-5678",
     },
+
+    {
+      id: "birth",
+      name: "birth",
+      label: "생년월일",
+      type: "text",
+      placeholder: "예) 950101",
+      required: true,
+      inputMode: "numeric",
+      autoComplete: "bday",
+      pattern: "^[0-9]{6}$",
+      title: "생년월일 6자리를 입력해 주세요. (예: 950101)",
+    },
   ],
   messageField: {
     id: "message",
