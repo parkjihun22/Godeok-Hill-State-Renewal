@@ -135,7 +135,7 @@ const page = ({
 export const seoPages = {
   home: page({
     path: "/",
-    title: "힐스테이트 고덕엘리스트",
+    title: "▪힐스테이트 고덕엘리스트",
     description: siteSeo.defaultDescription,
     menu: "홈",
     priority: 1,
