@@ -279,7 +279,7 @@ const Main = () => {
                 </h1>
 
                 <div className={styles.heroKeyword1}>
-                  평택 고덕국제화계획지구 A31BL · A34BL · A35BL
+                  평택 고덕국제화계획지구<br /> A31BL · A34BL · A35BL
                   <br />
                   전용 59㎡ · 84㎡
                   <br />
