@@ -155,6 +155,19 @@ export default function Customer() {
               required
             />
 
+            <label className={styles.fieldLabel}>
+              생년월일<span className={styles.required}></span>
+            </label>
+            <input
+              type="text"
+              name="birth"
+              value={form.birth}
+              onChange={handleChange}
+              placeholder="예) 950101"
+              maxLength={6}
+              required
+            />
+
             {/* 문의내용 */}
             <label className={styles.fieldLabel}>
               문의 내용<span className={styles.required}></span>
