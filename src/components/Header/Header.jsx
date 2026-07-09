@@ -66,7 +66,7 @@ const menuArray = [
     title: "타입안내",
     subMenu: [
       { subTitle: "59A㎡ ", subUrl: "/FloorPlan/59A" },
-      { subTitle: "84B㎡", subUrl: "/FloorPlan/59B" },
+      { subTitle: "59B㎡", subUrl: "/FloorPlan/59B" },
       { subTitle: "84A㎡", subUrl: "/FloorPlan/84A" },
       { subTitle: "84B㎡", subUrl: "/FloorPlan/84B" },
       { subTitle: "84C㎡", subUrl: "/FloorPlan/114A" },
