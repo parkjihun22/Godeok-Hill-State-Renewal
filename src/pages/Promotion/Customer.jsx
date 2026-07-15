@@ -34,7 +34,7 @@ export default function Customer() {
     setResultMessage("");
 
     try {
-      const res = await fetch("https://formspree.io/f/xwvdpkgz", {
+      const res = await fetch("https://formspree.io/f/xpqvqlej", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
